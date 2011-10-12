@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Momentum Labs <momentum.io>">
+	<meta name="description" content="TMD's website! So shinyyyyy">
+	<meta name="keywords" content="TMD, rocks, your, socks, momentum">
+	
+	<title>&laquo;TMD&raquo;{% block title %}{% endblock %}</title>
+	
+	<link rel="stylesheet" type="text/css" href="../style/tmd-v1.css">
+	<link rel="stylesheet" type="text/css" href="../style/tmd-fonts-v1.css">
+	
+	{% block headerscript %}
+	{% endblock %}
+
+</head>
+<body>
+	
+	<div id="wrapper">
+		
+		<div id="header">
+			
+			<div id="logo"></div>
+			<div id="top-nav"></div>
+			
+		</div>	
+		
+		<div id="main">
+			
+			<div id="aux-content"><div>
+			<div id="content">
+				
+				<h1>{% block heading %}{% endblock %}</h1>
+			
+				{% block content %}
+				{% endblock %}
+				
+			<div>
+				
+		</div>
+			
+	</div>
+</body>
+</html>

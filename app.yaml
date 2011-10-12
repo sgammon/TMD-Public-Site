@@ -1,0 +1,21 @@
+application: teammacdown
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /style
+  static_dir: style
+  expiration: 365d
+  mime_type: text/css
+  
+- url: /img
+  static_dir: img
+  
+- url: /js
+  static_dir: js
+  expiration: 365d
+  mime_type: text/javascript
+  
+- url: /.*
+  script: tmd.py

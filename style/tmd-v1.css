@@ -1,0 +1,169 @@
+/*
+Site: TMD
+Version: 1.0
+Created: 10/11/2011
+Last update: 10/11/2011
+Author: Momentum Labs <momentum.io>
+*/
+
+
+
+/* Reset
+------------------------------------------------- */
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, a, em, img, ol, ul, li, fieldset, form, label, textarea, input, select {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+a img {border: none;}
+:focus {outline: 0;}
+
+
+
+/* Global
+------------------------------------------------- */
+
+html {height: 100%;}
+body {
+    background: #999;
+    color: #333;
+    font: normal 75% sans-serif;
+    line-height: 1.5em;
+}
+
+
+
+/* Typography
+------------------------------------------------- */
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-weight: normal;
+    line-height: 1em;
+    margin-bottom: 0.3em;
+}
+
+h1 {font-size: 2.6em;}
+h2 {font-size: 1.7em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.25em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 1em;}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin: 0;}
+
+
+/* Links */
+
+a, a:visited { }
+a:active, a:focus { }
+a:hover { }
+	
+	
+/* Text elements */
+
+p {
+	margin-bottom: 1em;
+}
+
+em {font-style: italic;}
+strong, b {font-weight: 900;}
+sup,sub {line-height: 0;}
+
+
+/* Lists */
+
+li ul, li ol {margin-left: 1.5em;}
+ul, ol {margin: 1em;}
+
+ul {list-style-type: disc;}
+ol {list-style-type: decimal; margin-left: 1.9em;}
+
+
+/* Classes */
+
+.small {font-size: 0.9em;}
+.smaller {font-size: 0.8em;}
+.smallest {font-size: 0.7em;}
+
+.big {font-size: 1.2em;}
+.bigger {font-size: 1.3em;}
+.biggest {font-size: 1.4em;}
+
+.hidden {display: none;}
+
+.quiet, .quiet a {color: #666; font-style:italic;}
+.loud, .loud a {color: #f00;}
+.highlight, .highlight a {background:#ff0;}
+
+
+
+/* Forms
+------------------------------------------------- */
+
+label {cursor: pointer;}
+textarea {overflow: auto;}
+
+form {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#form-wrap { }
+
+input { }
+
+
+
+/* Alignment
+------------------------------------------------- */
+
+.textleft {text-align: left;}
+.textright {text-align: right;}
+.textcenter {text-align: center;}
+
+.left, .alignleft {float: left;}
+.right, .alignright {float: right;}
+.center, .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear, .clearer {clear: both;}
+.clearer {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+
+
+
+/* Images
+------------------------------------------------- */
+
+img {vertical-align: middle;}
+
+
+
+/* Layout
+------------------------------------------------- */
+
+#wrapper { }
+
+/* Header */
+
+#header { }
+
+#logo { }
+
+#top-nav { }
+
+/* Main */
+
+#main { }
+
+#aux-content { }
+
+#content { }
