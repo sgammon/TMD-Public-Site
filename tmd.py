@@ -14,7 +14,6 @@ import os
 import logging
 
 import webapp2 as webapp
-
 from webapp2_extras import jinja2
 
 from google.appengine.ext.webapp.util import run_wsgi_app
